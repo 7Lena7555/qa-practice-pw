@@ -1,0 +1,263 @@
+# Test info
+
+- Name: C-04 should follow by user
+- Location: C:\Users\Lena\OneDrive\Documents\qa-practice-pw\tests\conduit\follow-user.spec.ts:3:5
+
+# Error details
+
+```
+Error: expect.toContainText: Error: strict mode violation: locator('.article-preview').filter({ has: getByRole('link', { name: 'raymondtest' }).first() }) resolved to 3 elements:
+    1) <div class="article-preview" data-qa-type="article-preview">…</div> aka getByText('raymondtest May 16, 2025 0 testArticleRaymondAbout RaymondRead more...')
+    2) <div class="article-preview" data-qa-type="article-preview">…</div> aka getByText('raymondtest May 16, 2025 0 LilOpRead more...').first()
+    3) <div class="article-preview" data-qa-type="article-preview">…</div> aka getByText('raymondtest May 16, 2025 0 LilOpRead more...').nth(1)
+
+Call log:
+  - expect.toContainText with timeout 10000ms
+  - waiting for locator('.article-preview').filter({ has: getByRole('link', { name: 'raymondtest' }).first() })
+
+    at C:\Users\Lena\OneDrive\Documents\qa-practice-pw\tests\conduit\follow-user.spec.ts:21:31
+```
+
+# Page snapshot
+
+```yaml
+- navigation:
+  - link "conduit":
+    - /url: /
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: /
+    - listitem:
+      - link " New Article":
+        - /url: /editor
+    - listitem:
+      - link " Settings":
+        - /url: /settings
+    - listitem:
+      - link "olena012":
+        - /url: /@olena012/
+- heading "conduit" [level=1]
+- paragraph: A place to share your knowledge.
+- list:
+  - listitem:
+    - link "Your Feed":
+      - /url: /my-feed
+  - listitem:
+    - link "Global Feed":
+      - /url: /
+- link:
+  - /url: /@raymondtest/
+  - img
+- link "raymondtest":
+  - /url: /@raymondtest/
+- text: May 16, 2025
+- button " 0"
+- link "testArticleRaymond About Raymond Read more...":
+  - /url: /articles/testarticleraymond-8gl1c9
+  - heading "testArticleRaymond" [level=1]
+  - paragraph: About Raymond
+  - text: Read more...
+  - list
+- link:
+  - /url: /@raymondtest/
+  - img
+- link "raymondtest":
+  - /url: /@raymondtest/
+- text: May 16, 2025
+- button " 0"
+- link "Lil Op Read more...":
+  - /url: /articles/lil-lika7h
+  - heading "Lil" [level=1]
+  - paragraph: Op
+  - text: Read more...
+  - list
+- link:
+  - /url: /@raymondtest/
+  - img
+- link "raymondtest":
+  - /url: /@raymondtest/
+- text: May 16, 2025
+- button " 0"
+- link "Lil Op Read more...":
+  - /url: /articles/lil-84md5y
+  - heading "Lil" [level=1]
+  - paragraph: Op
+  - text: Read more...
+  - list
+- link:
+  - /url: /@testuser/
+  - img
+- link "testuser":
+  - /url: /@testuser/
+- text: May 16, 2025
+- button " 0"
+- link "a Read more...":
+  - /url: /articles/a-itakxp
+  - heading "a" [level=1]
+  - paragraph
+  - text: Read more...
+  - list
+- link:
+  - /url: /@testuser/
+  - img
+- link "testuser":
+  - /url: /@testuser/
+- text: May 16, 2025
+- button " 0"
+- link "testArticle_3 Read more...":
+  - /url: /articles/testarticle_3-3yokdj
+  - heading "testArticle_3" [level=1]
+  - paragraph
+  - text: Read more...
+  - list
+- link:
+  - /url: /@olena012/
+  - img
+- link "olena012":
+  - /url: /@olena012/
+- text: May 16, 2025
+- button " 0"
+- link "My first article Technology Read more...":
+  - /url: /articles/my-first-article-8pvq4w
+  - heading "My first article" [level=1]
+  - paragraph: Technology
+  - text: Read more...
+  - list
+- link:
+  - /url: /@olena012/
+  - img
+- link "olena012":
+  - /url: /@olena012/
+- text: May 16, 2025
+- button " 0"
+- link "My first article Technology Read more...":
+  - /url: /articles/my-first-article-jc9bb7
+  - heading "My first article" [level=1]
+  - paragraph: Technology
+  - text: Read more...
+  - list
+- link:
+  - /url: /@olena012/
+  - img
+- link "olena012":
+  - /url: /@olena012/
+- text: May 16, 2025
+- button " 1"
+- link "My wgtwtdfe Read more...":
+  - /url: /articles/my-4yzhrn
+  - heading "My" [level=1]
+  - paragraph: wgtwtdfe
+  - text: Read more...
+  - list
+- link:
+  - /url: /@olena012/
+  - img
+- link "olena012":
+  - /url: /@olena012/
+- text: May 16, 2025
+- button " 0"
+- link "sgr wgtwt Read more...":
+  - /url: /articles/sgr-bto7l9
+  - heading "sgr" [level=1]
+  - paragraph: wgtwt
+  - text: Read more...
+  - list
+- link:
+  - /url: /@testuser/
+  - img
+- link "testuser":
+  - /url: /@testuser/
+- text: May 16, 2025
+- button " 1"
+- link "testArticle_2 This is about a test 2test test test by it 2 Read more...":
+  - /url: /articles/testarticle-m2mh0m
+  - heading "testArticle_2" [level=1]
+  - paragraph: This is about a test 2test test test by it 2
+  - text: Read more...
+  - list
+- navigation:
+  - list:
+    - listitem:
+      - link "1":
+        - /url: ""
+    - listitem:
+      - link "2":
+        - /url: ""
+    - listitem:
+      - link "3":
+        - /url: ""
+    - listitem:
+      - link "4":
+        - /url: ""
+    - listitem:
+      - link "5":
+        - /url: ""
+    - listitem:
+      - link "6":
+        - /url: ""
+- paragraph: Popular Tags
+- link "demo":
+  - /url: /tag/demo
+- link "testing":
+  - /url: /tag/testing
+- link "playwright":
+  - /url: /tag/playwright
+- link "dojo":
+  - /url: /tag/dojo
+- link "qa":
+  - /url: /tag/qa
+- link "test":
+  - /url: /tag/test
+- link "cool":
+  - /url: /tag/cool
+- contentinfo:
+  - link "conduit":
+    - /url: /
+  - text: An interactive learning project from
+  - link "Thinkster":
+    - /url: https://thinkster.io
+  - text: . Code & design licensed under MIT.
+```
+
+# Test source
+
+```ts
+   1 | import { test , expect } from '@playwright/test';
+   2 |
+   3 | test('C-04 should follow by user',
+   4 |      { tag: "@article" }, async ({ page }) => {await page.goto('https://demo.learnwebdriverio.com/');
+   5 | await page.goto('https://demo.learnwebdriverio.com/');
+   6 | await page.getByText('Sign in').click();
+   7 | await page.locator('input[placeholder="Email"]').fill('olena012@gmail.com');
+   8 | await page.locator('input[placeholder="Password"]').fill('admin012');
+   9 | await page.locator('button').click();
+  10 | await expect(page).toHaveURL('https://demo.learnwebdriverio.com/login');;
+  11 |
+  12 |   await page.getByRole('link', { name: 'Global Feed' }).waitFor({ state: 'visible' });
+  13 |   // await page.locator('//a[@class="page-link" and text() = "2"]').click();
+  14 |
+  15 |   // Вибір першого посилання з автором raymondtest
+  16 |  const testingLink = page.getByRole('link', { name: 'raymondtest' }).first();
+  17 |  await testingLink.waitFor({ state: 'visible', timeout: 10000 });
+  18 |
+  19 | // Перевірка назви статті в контейнері статті
+  20 |  const articlePreview = page.locator('.article-preview').filter({ has: testingLink });
+> 21 |  await expect(articlePreview).toContainText('testArticleRaymond', { timeout: 10000 });
+     |                               ^ Error: expect.toContainText: Error: strict mode violation: locator('.article-preview').filter({ has: getByRole('link', { name: 'raymondtest' }).first() }) resolved to 3 elements:
+  22 |
+  23 | // Клік на статтю (посилання на статтю, а не автора)
+  24 |  const articleLink = articlePreview.getByRole('link', { name: 'testArticleRaymond' });
+  25 |  await articleLink.click();
+  26 |  
+  27 |
+  28 |   const followButton = page.locator('[data-qa-id="follow-toggle"]');
+  29 |   await followButton.waitFor({ state: 'visible' });
+  30 |   await expect(followButton).toContainText('Follow');
+  31 |   await followButton.click();
+  32 |   await expect(followButton).toContainText('Unfollow');
+  33 |   await followButton.click();
+  34 |   await page.getByRole('link', { name: 'Global Feed' }).waitFor({ state: 'visible', timeout: 10000 });
+  35 |   
+  36 | });
+```

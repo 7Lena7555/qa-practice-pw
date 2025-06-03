@@ -1,0 +1,22 @@
+{
+  "name": "olena-qa-77-new-package",
+  "version": "1.0.1",
+  "description": "A simple package for checking the parity of a number",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "testing",
+    "automation",
+    "qa",
+    "olena",
+    "utility"
+  ],
+  "author": "Olena",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "olena-qa-77-new-package": "^1.0.1"
+  }
+}
